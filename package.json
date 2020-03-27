@@ -1,0 +1,26 @@
+{
+  "name": "covid-qna",
+  "version": "1.0.0",
+  "description": "Covid-19 indentification QNA",
+  "main": "src/index.html",
+  "author": "Deepak Jangid",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "prebuild": "/bin/bash prebuild.sh"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.0",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.9.5",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}

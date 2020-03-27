@@ -1,0 +1,10 @@
+.AppleDouble
+**/.AppleDouble
+*.swp
+*.*~
+.idea
+*.iml
+node_modules/*
+.cache/*
+dist/*
+yarn.lock
